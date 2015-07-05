@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="364,36,0,0" TextWrapping="Wrap" Text="Parallel Impedence Calculator" VerticalAlignment="Top" Height="62" Width="500" FontSize="36"/>
 
     </Grid>
 </Page>
