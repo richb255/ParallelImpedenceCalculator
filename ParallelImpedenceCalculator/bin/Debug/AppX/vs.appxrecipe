@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>IDEA-PC</Machine>
+    <WindowsUser>Richard</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>7cd25918-b9cb-44ea-ab4c-3662bbbe57b7</PackageIdentityName>
+    <IntermediateOutputPath>C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>28EF897932A9545348DE2CBF8C49278104AE723AEC819517D76A1F35E37EE299</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7cd25918-b9cb-44ea-ab4c-3662bbbe57b7_1.0.0.0_neutral__bqbb28m2ksa1g</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7cd25918-b9cb-44ea-ab4c-3662bbbe57b7_bqbb28m2ksa1g!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7cd25918-b9cb-44ea-ab4c-3662bbbe57b7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Richard</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-12T06:26:39.168</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\ParallelImpedenceCalculator.exe">
+      <PackagePath>ParallelImpedenceCalculator.exe</PackagePath>
+      <Modified>2015-07-12T06:26:38.996</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-05T05:38:38.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-05T05:38:38.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-05T05:38:38.515</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-05T05:38:38.531</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-07-12T06:26:38.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-07-12T06:26:38.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\ParallelImpedenceCalculator.xr.xml">
+      <PackagePath>ParallelImpedenceCalculator.xr.xml</PackagePath>
+      <Modified>2015-07-12T06:26:38.793</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-07-12T06:26:39.075</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

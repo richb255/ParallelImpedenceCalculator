@@ -26,5 +26,18 @@ namespace ParallelImpedenceCalculator
         {
             this.InitializeComponent();
         }
+
+        private void calculateButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void clearButton_Click(object sender, RoutedEventArgs e)
+        {
+            resistanceTextbox.Text = "";
+            capacitanceTextbox.Text = "";
+            inductanceTextbox.Text = "";
+            resultsBox.Text = "";
+        }
     }
 }

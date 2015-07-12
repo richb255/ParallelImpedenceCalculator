@@ -7,14 +7,18 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="0,7,0,-7">
         <TextBlock HorizontalAlignment="Left" Margin="364,36,0,0" TextWrapping="Wrap" Text="Parallel Impedence Calculator" VerticalAlignment="Top" Height="62" Width="500" FontSize="36"/>
-        <TextBox x:Name="resistanceTextbox" HorizontalAlignment="Left" Margin="115,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontSize="18"/>
+        <TextBox x:Name="resistanceTextbox" HorizontalAlignment="Left" Margin="115,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontSize="18" FontFamily="Global User Interface" ToolTipService.ToolTip="Enter the resistance value in this box."/>
         <TextBlock x:Name="resistanceLabel" HorizontalAlignment="Left" Margin="115,152,0,0" TextWrapping="Wrap" Text="Resistance" VerticalAlignment="Top" Height="17" Width="151" FontSize="18"/>
-        <TextBox x:Name="capacitanceTextbox" HorizontalAlignment="Left" Margin="115,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
-        <TextBox x:Name="inductanceTextbox" HorizontalAlignment="Left" Margin="115,396,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
-        <TextBlock x:Name="capacitanceLabel" HorizontalAlignment="Left" Margin="115,254,0,0" TextWrapping="Wrap" Text="Capacitance" VerticalAlignment="Top" Width="107" FontSize="18"/>
-        <TextBlock x:Name="inductanceLabel" HorizontalAlignment="Left" Margin="115,373,0,0" TextWrapping="Wrap" Text="Inductance" VerticalAlignment="Top" Width="107" FontSize="18"/>
+        <TextBox x:Name="capacitanceTextbox" HorizontalAlignment="Left" Margin="115,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontFamily="Global User Interface"/>
+        <TextBox x:Name="inductanceTextbox" HorizontalAlignment="Left" Margin="115,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontFamily="Global User Interface"/>
+        <TextBlock x:Name="capacitanceLabel" HorizontalAlignment="Left" Margin="115,266,0,0" TextWrapping="Wrap" Text="Capacitance" VerticalAlignment="Top" Width="107" FontSize="18"/>
+        <TextBlock x:Name="inductanceLabel" HorizontalAlignment="Left" Margin="115,390,0,0" TextWrapping="Wrap" Text="Inductance" VerticalAlignment="Top" Width="107" FontSize="18"/>
+        <Button x:ConnectionId='1' x:Name="calculateButton" Content="Calculate" HorizontalAlignment="Left" Margin="435,176,0,0" VerticalAlignment="Top" Width="132" ToolTipService.ToolTip="Click this button to calculate the impedence."                              />
+        <Button x:ConnectionId='2' x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="435,288,0,0" VerticalAlignment="Top" Width="132"                          />
+        <TextBox x:Name="resultsBox" HorizontalAlignment="Left" Margin="115,570,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBlock x:Name="resultsLabel" HorizontalAlignment="Left" Margin="115,546,0,0" TextWrapping="Wrap" Text="Calculated Impedence" VerticalAlignment="Top" Width="219" FontSize="18"/>
 
     </Grid>
 </Page>
