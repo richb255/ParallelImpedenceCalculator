@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-07-12T06:26:39.168</Modified>
+      <Modified>2015-07-12T21:46:01.051</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\ParallelImpedenceCalculator.exe">
       <PackagePath>ParallelImpedenceCalculator.exe</PackagePath>
-      <Modified>2015-07-12T06:26:38.996</Modified>
+      <Modified>2015-07-12T21:46:00.911</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
@@ -50,11 +50,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-07-12T06:26:38.793</Modified>
+      <Modified>2015-07-12T21:46:00.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-07-12T06:26:38.793</Modified>
+      <Modified>2015-07-12T21:46:00.708</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\ParallelImpedenceCalculator.xr.xml">
       <PackagePath>ParallelImpedenceCalculator.xr.xml</PackagePath>
@@ -62,7 +62,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Projects\Windows Store\ParallelImpedenceCalculator\ParallelImpedenceCalculator\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-12T06:26:39.075</Modified>
+      <Modified>2015-07-12T21:46:00.973</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

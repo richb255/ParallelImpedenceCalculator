@@ -44,6 +44,7 @@ namespace ParallelImpedenceCalculator
             bool bResistanceBad = false;
             bool bCapacitanceBad = false;
             bool bInductanceBad = false;
+            String message = "";
 
             try
             {
@@ -58,12 +59,13 @@ namespace ParallelImpedenceCalculator
             }
             catch (Exception ex)
             {
+                message = "Resistance input: " + ex.Message;
                 bResistanceBad = true;
             }
 
             if (true == bResistanceBad)
             {
-
+                ShowMessage(message);
                 return;
             }
 
@@ -80,13 +82,13 @@ namespace ParallelImpedenceCalculator
             }
             catch (Exception ex)
             {
-
+                message = "Capacitance input: " + ex.Message;
                 bCapacitanceBad = true;
             }
 
             if (true == bCapacitanceBad)
             {
-
+                ShowMessage(message);
                 return;
             }
 
@@ -103,12 +105,13 @@ namespace ParallelImpedenceCalculator
             }
             catch (Exception ex)
             {
+                message = "Inductance input: " + ex.Message;
                 bInductanceBad = true;
             }
 
             if (true == bInductanceBad)
             {
-
+                ShowMessage(message);
                 return;
             }
 
@@ -125,6 +128,19 @@ namespace ParallelImpedenceCalculator
             capacitanceTextbox.Text = "";
             inductanceTextbox.Text = "";
             resultsBox.Text = "";
+        }
+
+        /// <summary>
+        /// This function displays a message to the user.
+        /// </summary>
+        /// <param name="Msg"></param>
+        private async void ShowMessage(String Msg)
+        {
+            var messageDialog = new MessageDialog(Msg);
+
+            messageDialog.Commands.Add(new UICommand("OK"));
+
+            await messageDialog.ShowAsync();
         }
     }
 }
