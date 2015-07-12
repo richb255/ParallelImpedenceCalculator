@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -29,6 +30,54 @@ namespace ParallelImpedenceCalculator
 
         private void calculateButton_Click(object sender, RoutedEventArgs e)
         {
+            double dblResistance = 0.0;
+            double dblCapacitance = 0.0;
+            bool bResistanceBad = false;
+            bool bCapacitanceBad = false;
+
+            try
+            {
+                if (0 == resistanceTextbox.Text.Length)
+                {
+                    dblResistance = 0.0;
+                }
+                else
+                {
+                    dblResistance = Double.Parse(resistanceTextbox.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                bResistanceBad = true;
+            }
+
+            if (true == bResistanceBad)
+            {
+
+                return;
+            }
+
+            try
+            {
+                if (0 == capacitanceTextbox.Text.Length)
+                {
+                    dblCapacitance = 0.0;
+                }
+                else
+                {
+                    dblCapacitance = Double.Parse(capacitanceTextbox.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                bCapacitanceBad = true;
+            }
+
+            if (true == bCapacitanceBad)
+            {
+
+                return;
+            }
 
         }
 
