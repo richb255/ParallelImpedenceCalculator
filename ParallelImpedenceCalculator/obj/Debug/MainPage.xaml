@@ -11,6 +11,10 @@
         <TextBlock HorizontalAlignment="Left" Margin="364,36,0,0" TextWrapping="Wrap" Text="Parallel Impedence Calculator" VerticalAlignment="Top" Height="62" Width="500" FontSize="36"/>
         <TextBox x:Name="resistanceTextbox" HorizontalAlignment="Left" Margin="115,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" FontSize="18"/>
         <TextBlock x:Name="resistanceLabel" HorizontalAlignment="Left" Margin="115,152,0,0" TextWrapping="Wrap" Text="Resistance" VerticalAlignment="Top" Height="17" Width="151" FontSize="18"/>
+        <TextBox x:Name="capacitanceTextbox" HorizontalAlignment="Left" Margin="115,278,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBox x:Name="inductanceTextbox" HorizontalAlignment="Left" Margin="115,396,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
+        <TextBlock x:Name="capacitanceLabel" HorizontalAlignment="Left" Margin="115,254,0,0" TextWrapping="Wrap" Text="Capacitance" VerticalAlignment="Top" Width="107" FontSize="18"/>
+        <TextBlock x:Name="inductanceLabel" HorizontalAlignment="Left" Margin="115,373,0,0" TextWrapping="Wrap" Text="Inductance" VerticalAlignment="Top" Width="107" FontSize="18"/>
 
     </Grid>
 </Page>
