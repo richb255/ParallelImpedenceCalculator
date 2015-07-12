@@ -28,12 +28,22 @@ namespace ParallelImpedenceCalculator
             this.InitializeComponent();
         }
 
+        /// <summary>
+        ///  This function handles the Calculate button click event and it is here
+        ///  where the impedence value is calculated. I am making the error checking
+        ///  more sophisticated this time, displaying more information to the user about
+        ///  what went wromg.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void calculateButton_Click(object sender, RoutedEventArgs e)
         {
             double dblResistance = 0.0;
             double dblCapacitance = 0.0;
+            double dblInductance = 0.0;
             bool bResistanceBad = false;
             bool bCapacitanceBad = false;
+            bool bInductanceBad = false;
 
             try
             {
@@ -70,6 +80,7 @@ namespace ParallelImpedenceCalculator
             }
             catch (Exception ex)
             {
+
                 bCapacitanceBad = true;
             }
 
@@ -79,8 +90,35 @@ namespace ParallelImpedenceCalculator
                 return;
             }
 
+            try
+            {
+                if (0 == inductanceTextbox.Text.Length)
+                {
+                    dblInductance = 0.0;
+                }
+                else
+                {
+                    dblInductance = Double.Parse(inductanceTextbox.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                bInductanceBad = true;
+            }
+
+            if (true == bInductanceBad)
+            {
+
+                return;
+            }
+
         }
 
+        /// <summary>
+        ///  This function handles the click event from the Clear button.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void clearButton_Click(object sender, RoutedEventArgs e)
         {
             resistanceTextbox.Text = "";
