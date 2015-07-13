@@ -42,6 +42,7 @@ namespace ParallelImpedenceCalculator
             double dblCapacitance = 0.0;
             double dblInductance = 0.0;
             double dblFrequency = 0.0;
+            double dblInducImpedence = 0.0;
             bool bResistanceBad = false;
             bool bCapacitanceBad = false;
             bool bInductanceBad = false;
