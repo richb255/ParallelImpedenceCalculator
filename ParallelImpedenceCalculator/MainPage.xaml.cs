@@ -41,11 +41,36 @@ namespace ParallelImpedenceCalculator
             double dblResistance = 0.0;
             double dblCapacitance = 0.0;
             double dblInductance = 0.0;
+            double dblFrequency = 0.0;
             bool bResistanceBad = false;
             bool bCapacitanceBad = false;
             bool bInductanceBad = false;
+            bool bFrequencyBad = false;
             String message = "";
+            
+            try
+            {
+               if (0 == frequencyTextbox.Text.Length)
+               {
+                   dblFrequency = 0.0;
+               }
+               else
+               {
+                   dblFrequency = Double.Parse(frequencyTextbox.Text);
+               }
+            }
+            catch (Exception ex)
+            {
+                  message = "Frequency input: " + ex.Message;
+                  bFrequencyBad = true;
+            }
 
+            if (true == bFrequencyBad)
+            {
+                  ShowMessage(message);
+                  return;
+            }
+            
             try
             {
                 if (0 == resistanceTextbox.Text.Length)
@@ -113,6 +138,16 @@ namespace ParallelImpedenceCalculator
             {
                 ShowMessage(message);
                 return;
+            }
+
+            // Here is where we do the calculations.
+            try
+            {
+
+            }
+            catch (Exception ex)
+            {
+
             }
 
         }

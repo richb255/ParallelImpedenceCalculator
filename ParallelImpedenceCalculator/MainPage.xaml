@@ -19,6 +19,8 @@
         <Button x:Name="clearButton" Content="Clear" HorizontalAlignment="Left" Margin="435,288,0,0" VerticalAlignment="Top" Width="132" Click="clearButton_Click"/>
         <TextBox x:Name="resultsBox" HorizontalAlignment="Left" Margin="115,570,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219"/>
         <TextBlock x:Name="resultsLabel" HorizontalAlignment="Left" Margin="115,546,0,0" TextWrapping="Wrap" Text="Calculated Impedence" VerticalAlignment="Top" Width="219" FontSize="18"/>
+        <TextBox x:Name="frequencyTextbox" HorizontalAlignment="Left" Margin="381,413,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="183" ToolTipService.ToolTip="Enter the frequency in this text box."/>
+        <TextBlock x:Name="frequencyLabel" HorizontalAlignment="Left" Margin="381,390,0,0" TextWrapping="Wrap" Text="Frequency" VerticalAlignment="Top" Width="102" FontSize="18"/>
 
     </Grid>
 </Page>
